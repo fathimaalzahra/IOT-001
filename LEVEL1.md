@@ -14,7 +14,9 @@ Takeaways : Familiarize with the use of the microcontroller esp32 and create a f
 ## Task 2 - Basics of MQTT protocol and other communitcation protocols
 
 Learn the basics of MQTT protocol and its working from the [website](-https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/)
+
 Learn the different types of communication protocols [here](https://www.weare5vmedia.com/media/communication-protocols-for-an-embedded-engineer-to-know#:~:text=The%20four%20communication%20protocols%20most,%2C%20SPI%2C%20I2C%20and%20USB.)
+
 Learn about the different networking protocols [here](https://www.techtarget.com/iotagenda/tip/Top-12-most-commonly-used-IoT-protocols-and-standards)
 
 Takeaways : Learn about the different protocols used in IOT. 
