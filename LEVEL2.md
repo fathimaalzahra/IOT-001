@@ -1,17 +1,54 @@
-## Task 1 - Set up a system to remotely monitor and control MARVEL’s 3D printer using Octopy and a Ngrok tunnel.
+##  Task 6 - Sending data to ThingSpeak
+Using Esp32 post the data of a temperature sensor to the Thingspeak Website using its api and display the graph of temp vs time and after processing retrieve the data back from the website.
 
-Figure out setting up Node red on a raspberry pi and learn about its various functionalities.
+Alternatively you can also use matplotlib in python to plot the graph of temp vs time, by downloading the dataset from thingspeak.
 
-What is nodeRed? [Check this](https://nodered.org/docs/getting-started/raspberrypi).
-  [And this](https://medium.com/@gaelollivier/connect-to-your-raspberry-pi-from-anywhere-using-ngrok-801e9fd1dd46)
+[Resource1](https://randomnerdtutorials.com/esp32-http-post-ifttt-thingspeak-arduino/)
 
+[Resource 2](https://nothans.com/thingspeak-tutorials/arduino/send-data-to-thingspeak-with-arduino)
 
-## Task 2 - MQTT using Node Red in Raspberry Pi and ESP32
-Using the Node-RED on Raspberry Pi control the ESP32 outputs and sensor readings from the ESP32 using MQTT communication protocol. 
-[resource](https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/)
+Takeaways : Learn how to publish data to website and get data from it
 
 
-## Task 3 - Esp32 Cam
-Set up a CCTV camera system that streams/records video footage from MARVEL as a measure to heighten the lab’s security.
-[Resource](https://all3dp.com/2/esp32-cam-arduino-tutorial/#:~:text=Restart%20Arduino%20IDE%20and%20connect,AI%20Thinker%20ESP32%2DCAM%E2%80%9D)
+
+##   Task 7 - Communication using I2C protocol
+
+Send data from Esp32 to Arduino via I2C protocol and display a message on the lcd screen by typing the message using the webserver hosted on the esp32.
+
+What is [I2C protocol](https://www.tutorialspoint.com/what-is-the-i2c-protocol-in-computer-network#:~:text=I2C%20stands%20for%20the%20inter,device%20has%20a%20specific%20address.)?
+
+[Resource](https://forum.arduino.cc/t/i2c-from-esp32-to-arduino/975652)
+
+Takeaways : Learn the wired communication protocol between two microcontrollers.
+
+
+
+## Task 8 - Flashing Morse Code 
+
+Set up an ESP32 to flash morse code using an led making use of the message sent by the webserver hosted on the esp32.
+
+[Resource](https://www.deviceplus.com/arduino/how-to-create-a-morse-code-generator-using-arduino/).
+
+Takeaways : One of the real life application of a webserver for communication.
+
+
+## Task 9 - Soil Moisture Sensor
+
+Measure the moisture level of the soil in the pot using the capacitive soil moisture sensor and display the moisture level on the serial monitor or on the LCD screen. Give an alert to the user if the soil moisutre level is below a certain level. 
+
+[Resource](https://esp32io.com/tutorials/esp32-soil-moisture-sensor).
+
+Takeaways : Learn to measure soil moisture and control the water level.
+
+
+## Task 10 - Read and Display Vitals
+
+Measure heart rate and blood oxygen levels using MAX30100 sensor and display the results on an Android Application using MIT App Inventor. Give a notification to the user if the heart rate or the oxygen level is out of the normal range. The app can communicate with the ESP32 using a webserver or using MQTT protocol. 
+
+Resources:
+
+1. [MAX30100 with OLED](https://www.instructables.com/Heart-Rate-and-Blood-Oxygen-Level-With-Arduino-IDE/)
+2. [MIT App Inventor using WebServer](https://community.appinventor.mit.edu/t/esp32-sends-data-to-the-app-over-wifi-in-realtime-javascript-ajax/46307)
+3. [MQTT using MIT App Inventor and ESP32](https://www.youtube.com/watch?v=WAimZhU5phs)
+
 
