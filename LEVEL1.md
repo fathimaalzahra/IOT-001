@@ -11,7 +11,7 @@ Takeaways : Familiarize with the use of the microcontroller esp32 and create a f
 
 
 
-## Task 2 - Basics of MQTT protocol and other communitcation protocols
+## Task 2 - Basics of MQTT protocol and other communication protocols
 
 Learn the basics of MQTT protocol and its working from the [website](-https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/)
 
