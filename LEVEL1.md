@@ -33,7 +33,7 @@ Takeaways : Learn to create a website so that its easier to create a webserver.
 
 Set up  a CCTV camera system that streams/records video footages as a measure to heighten the lab security.
 
-[Resource](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
+[Resource](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
 
 Takeaways : Learn to use the esp32cam. 
 
