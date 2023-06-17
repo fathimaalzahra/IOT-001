@@ -1,3 +1,5 @@
+# Level 2
+
 ##  Task 1 - Watering a Plant 
 
 Using Solenoid Valve design a system to water the plant when the soil moisture content in the soil goes below a certain threshold value. Use a relay to turn on the valve. 
