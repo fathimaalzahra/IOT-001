@@ -1,3 +1,5 @@
+# Level 1
+
 ## Task 1 - Simon Says
 Create a simon says game using ESP32, pushbuttons and LEDs. Blink the leds randomly, asking the user to push the corresponding buttons. If the user has failed, then give a clear indication and restart the game.
 
